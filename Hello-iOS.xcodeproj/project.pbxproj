@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					9D927AF51DA3667D00118DA1 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = MT74Y6S34R;
 						ProvisioningStyle = Automatic;
 					};
 					9D927B091DA3667E00118DA1 = {
@@ -412,7 +413,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MT74Y6S34R;
 				INFOPLIST_FILE = "Hello-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.henryylzhang.Hello-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +427,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MT74Y6S34R;
 				INFOPLIST_FILE = "Hello-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.henryylzhang.Hello-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +510,7 @@
 				9D927B201DA3667E00118DA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D927B211DA3667E00118DA1 /* Build configuration list for PBXNativeTarget "Hello-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +519,7 @@
 				9D927B231DA3667E00118DA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D927B241DA3667E00118DA1 /* Build configuration list for PBXNativeTarget "Hello-iOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +528,7 @@
 				9D927B261DA3667E00118DA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
